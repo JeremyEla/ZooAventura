@@ -1,0 +1,157 @@
+body{margin: 0;
+padding: 0;}
+
+.contenedor{
+    position: relative;
+    height: 100%;
+    bottom: 100%;
+    background-color: rgb(37, 37, 37);
+}
+
+h1{
+    background-color: rgb(216, 137, 33);
+     color: rgb(252, 249, 249);
+     height: 45px;
+     padding: 0%; 
+     text-shadow: 2px 2px 2px #000000;
+     
+     position: absolute;
+     margin: 0px;
+     left: 1014px;
+
+     
+}
+   
+    
+
+header {
+   
+    width: 100%;
+    background: #000000;
+    
+}
+
+#btn-menu{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid rgb(216, 137, 33);;
+}
+
+
+header label:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+.menu ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: left;
+    
+}
+
+
+.menu li a{
+display: block;
+padding: 10px 57px;
+text-decoration: none;
+color: white;;
+
+
+}
+
+
+.menu li {
+    border-right: 1px solid rgb(216, 137, 33);
+
+}
+
+.menu li a:hover{
+    background-color:rgb(168, 109, 31) ;
+}
+
+@media (max-width:768px) {
+
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        background: #000000;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+        
+    }
+    .menu ul{
+
+        flex-direction: column;
+    }
+
+    .menu li{
+        border-top: 1px solid rgb(216, 137, 33);
+    }
+    #btn-menu:checked  ~ .menu {
+
+        margin: 0%;
+
+    }
+}
+
+
+
+
+
+
+
+.img2{
+    height: 400px;
+    width: 638px;
+    float: left;
+    position:absolute;
+    left: 671px;
+}
+
+.img3{
+    height: 400px;
+    width: 671px;
+}
+
+.cuerpo-i{
+    margin: 0px;
+    height: 131px;
+    width: 100%;
+    background-color: rgb(37, 37, 37) ;
+    position: absolute;
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+    text-align: center;
+    margin: 10px;
+    
+}
+.pie{
+    color: white;
+    background-color:rgb(216, 137, 33);
+    height: 68px;
+   
+   box-sizing: border-box;
+   margin: auto;
+}
+

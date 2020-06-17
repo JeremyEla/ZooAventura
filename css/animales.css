@@ -1,0 +1,287 @@
+body{margin: 0;
+    padding: 0;}
+    
+    .contenedor{
+        position: relative;
+        height: 100%;
+        bottom: 100%;
+        background-color:rgb(37, 37, 37);
+    }
+
+
+    h1{
+        background-color: rgb(216, 137, 33);
+         color: rgb(252, 249, 249);
+         height: 38px;
+         padding: 0%; 
+         text-shadow: 2px 2px 2px #000000;
+         
+         position: absolute;
+         margin: 0px;
+         left: 1013px;
+    
+         
+    }
+       
+        
+    
+    header {
+       
+        width: 100%;
+        background: #000000;
+        
+    }
+    
+    #btn-menu{
+        display: none;
+    }
+    
+    header label{
+        display: none;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-right: 1px solid rgb(216, 137, 33);;
+    }
+    
+    
+    header label:hover{
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.3);
+    }
+    
+    
+    .menu ul{
+        margin: 0px;
+        list-style: none;
+        padding: 0px;
+        display: flex;
+        justify-content: left;
+        
+    }
+    
+    
+    .menu li a{
+    display: block;
+    padding: 10px 57px;
+    text-decoration: none;
+    color: white;;
+    
+    
+    }
+    
+    
+    .menu li {
+        border-right: 1px solid rgb(216, 137, 33);
+    
+    }
+    
+    .menu li a:hover{
+        background-color:rgb(168, 109, 31) ;
+    }
+    
+    @media (max-width:768px) {
+    
+        header label{
+            display: block;
+        }
+    
+        .menu{
+            position: absolute;
+            background: #000000;
+            width: 70%;
+            margin-left: -70%;
+            transition: all 0.5s;
+            
+        }
+        .menu ul{
+    
+            flex-direction: column;
+        }
+    
+        .menu li{
+            border-top: 1px solid rgb(216, 137, 33);
+        }
+        #btn-menu:checked  ~ .menu {
+    
+            margin: 0%;
+    
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    .img2{
+        height: 400px;
+        width: 638px;
+        float: left;
+        position:absolute;
+        left: 670px;
+    }
+    
+    .img3{
+        height: 400px;
+        width: 670px;
+    }
+    
+    .cuerpo-i{
+        margin: 0px;
+        height: 131px;
+        width: 100%;
+        background-color: rgb(37, 37, 37) ;
+        position: absolute;
+    }
+    
+    h2{
+        text-align: center;
+        color: aliceblue;
+    }
+    
+    p{
+        color: aliceblue;
+        text-align: center;
+        margin: 0px;
+        
+    }
+    .pie{
+        color: white;
+        background-color:rgb(216, 137, 33);
+        height: 55px;
+        
+    }
+    
+    
+
+
+
+
+
+
+    h2{
+        color: white;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 2px;
+        text-align: center;
+    }
+
+   p{
+       color: white;
+   }
+    
+    .img3{
+        height: 400px;
+        width: 670px;
+        float: left;
+    }
+    
+  
+  
+    .pie{
+        color: white;
+        background-color:rgb(216, 137, 33);
+        height: 50px;
+        
+        position: relative;
+        
+    }
+    
+    p{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    h3{
+        color: white;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    h4{
+        color: white;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    h5{
+        color: white;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    h6{
+        color: white;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 2px;
+        text-align: center;
+        
+    }
+
+
+
+    .img4{
+        float: left;
+        width: 670px;
+        height: 400px;
+    }
+    .img1{
+        float: left;
+        width: 670px;
+        height: 400px;
+    }
+    .img8{
+        width: 670px;
+        height: 400px;
+        float: left;
+    }
+
+    .img18{
+        float: left;
+        width: 670px;
+        height: 400px;
+    }
+    
+    .img5{
+        width: 670px;
+        height: 400px;
+        float: left;
+    }
+
+    .img10{
+        width: 335px;
+        height: 195px;
+        float: left;
+    }
+
+    .img11{
+        width: 335px;
+        height: 195px;
+        float: left;
+    }
+
+    .img12{
+        width: 333px;
+        height: 195px;
+        float: left;
+    }
+
+    .img13{
+        width: 306px;
+        height: 195px;
+
+    }
+
+.pie{
+    font-size: 15px;
+}
